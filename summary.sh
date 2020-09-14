@@ -8,7 +8,7 @@ do
 	  		echo "$file is a directory:"
 	  		ls "$file"
 		elif [ -f "$file" ]; then
-    		"$file is a regular file:"
+    		echo "$file is a regular file:"
 	  		head -n 5 "$file"
 		fi
 done
